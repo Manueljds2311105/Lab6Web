@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Portfolio Saya</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <style>
+    .profile-pic { width:100%; max-width:250px; border-radius:8px; }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+    <div class="container">
+      <a class="navbar-brand" href="#">Manuel Johansen Dolok Saribu</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navPort">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navPort">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="#">Tentang Saya</a></li>
+          <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Kontak</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Tentang Saya -->
+  <section class="container my-5">
+    <div class="row align-items-center">
+      <div class="col-md-4 text-center">
+        <!-- ganti src dengan foto Anda -->
+        <img src="Foto Saya.png" alt="Foto Saya" class="img-fluid profile-pic">
+      </div>
+      <div class="col-md-8">
+        <h2>Manuel Johansen Dolok Saribu</h2>
+        <p>Perkenalkan, saya <strong>Manuel</strong>. Saya adalah mahasiswa di universitas pelita bangsa, saya mahasiswa semester 3, hari ini saya sedang belajar tentang bootstrap.</p>
+        <p><small><em>Email: manueljohansen231@gmail.com</em></small></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Saya -->
+  <section id="portfolio" class="container mb-5">
+    <h3 class="mb-4">Portfolio Saya</h3>
+
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <img src="https://dummyimage.com/600x400/0aa/fff.png&text=Proyek+1" class="card-img-top" alt="Proyek 1">
+          <div class="card-body">
+            <h5 class="card-title">Proyek 1</h5>
+            <p class="card-text">Pemograman Mobile: Membuat Aplikasi.</p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-sm btn-primary">Lihat</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <img src="https://dummyimage.com/600x400/06a/fff.png&text=Proyek+2" class="card-img-top" alt="Proyek 2">
+          <div class="card-body">
+            <h5 class="card-title">Proyek 2</h5>
+            <p class="card-text">Pemograman Web: Bootstrap.</p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-sm btn-primary">Lihat</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <img src="https://dummyimage.com/600x400/aa0/fff.png&text=Proyek+3" class="card-img-top" alt="Proyek 3">
+          <div class="card-body">
+            <h5 class="card-title">Proyek 3</h5>
+            <p class="card-text">Pemograman Orientasi Objek: Mencaritahu mana kode maana yang salah.</p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-sm btn-primary">Lihat</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-dark text-white py-3">
+    <div class="container text-center">
+      <small>&copy; 2025 Manuel — Portfolio sederhana</small>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
